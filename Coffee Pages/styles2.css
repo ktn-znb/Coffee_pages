@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Paytone+One&display=swap');
+
+body{
+	padding:0;
+	margin: 0;
+	width:100%;
+	height: 100%;
+	display: flex;
+	align-items :center;
+	background-color: black;
+}
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0 ;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	 position: relative;
+  z-index: 1;
+}
+.fa {
+  padding: 10px;
+}
+.sub-menu-1{
+	display:none;
+}
+.sub-menu-1:hover{
+    display: block;
+}
+.navbar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	
+	margin-top: 15px;
+	margin-left: -15px;
+	font-size: 10px;
+	 z-index: 1;
+}
+.navbar ul li:hover .sub-menu-1 ul li a {
+  color: #fff; 
+  font-size: 15px;
+  font-weight: 50;
+}
+.sub-menu-1 li {
+  padding: 10px;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow: auto;
+}
+
+.logo{
+	width: 140px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative; 
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #fff;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	position: relative;
+    font-family: 'Paytone One', sans-serif;	
+
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #8CBA80;
+	position: absolute;
+	left: 50%;
+	bottom: -10px;
+	transition:0.5s;
+	transform: translateX(-50%);
+}
+.navbar ul li:hover::after{
+	width:100%;
+}
+h1 {
+	padding:10px;
+	margin-top: 100px;	
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	padding:10px;
+	margin: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	color:  white;
+	font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+	padding:10px;
+	margin: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	color:  white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.slide-container{
+
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	overflow: hidden;
+	background:rgb(0,0,0);
+	padding:0;
+	margin: 0;
+}
+
+.image-slider{
+	width: 100%;
+	height: 100%; 
+    position: relative; /* Change position to relative */
+	left: 0;
+	display: flex;
+	transition: 1s;
+	padding:5;
+}
+.slides-div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 20px 0 20px;
+}
+
+.img{
+	position: relative;
+	width: 183px;
+	height: 275px;
+	transition: .5s;
+	filter: saturate(100%);
+}
+
+.button{
+	position: absolute;
+	width: 183px;
+	height: 275px;
+	transition: .5s;
+	background-color: rgba(0,0,0,.5);
+}
+
+.button:hover{
+	background-color: rgba(0,0,0,.2);
+}
+header {
+background-color: #E9DAC1;
+position: fixed;
+left: 0;
+right: 0;
+top: 0px;
+height: 85px;
+display: flex;
+justify-content: right;
+align-items: right;
+box-shadow: 0 0 25px 0 black;
+}
+header * {
+display: inline;
+}
+header li {
+margin: 10px;
+}
+header li a {
+text-decoration: none;
+}
+.navbar{
+	z-index: 2000;
+	position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.dropdown {
+	padding-inline-start: 250px;
+}
+.dropdown, .dropdown_genres {
+  float: center;
+  overflow: hidden;
+}
+.Cart .cart_class {
+  color: black !important;
+  background-color: transparent !important;
+}
+
+
+/* Dropdown button */
+.dropdown_genres .dropbtn-genres, .dropdown .dropbtn-home, .Cart .cart_class {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: black;
+  text-align: center;
+  padding: 25px 16px;
+  background-color: inherit;
+  position:sticky;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+
+/* From here u change the name of dropdown Dropdown content (hidden by default) */
+.dropdown-genres, .dropdown-home {
+  display: none;
+  position: absolute;
+  z-index: 9999;
+}
+
+/* Links inside the dropdown */
+.dropdown-genres a{
+	min-width: 20px;
+	padding: 12px 16px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.dropdown-home a{
+	padding: 12px 16px;
+	min-width: 160px;
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-genres a, .dropdown-home a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: #EDDFB3;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-genres a:hover, .dropdown-home a:hover {
+ background-color: brown;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-home,.dropdown_genres:hover .dropdown-genres {
+  display: block;
+}
+
+#details-button {
+  background-color: #AD5D4E;
+  color: white;
+  font-size: 20px;
+  padding:10px;
+  font: Poppins;
+  border-radius: 20px;
+}
+.button-container {
+  text-align: center;
+  padding: 20px;
+}
+
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~ .image-slider #button-7{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span8:target ~ .image-slider #img8,
+#slider-span8:target ~ .image-slider #button-8{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span9:target ~ .image-slider #img9,
+#slider-span9:target ~ .image-slider #button-9{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span10:target ~ .image-slider #img10,
+#slider-span10:target ~ .image-slider #button-10{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span11:target ~ .image-slider #img11,
+#slider-span11:target ~ .image-slider #button-11{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span12:target ~ .image-slider #img12,
+#slider-span12:target ~ .image-slider #button-12{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+#slider-span13:target ~ .image-slider #img13,
+#slider-span13:target ~ .image-slider #button-13{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span14:target ~ .image-slider #img14,
+#slider-span14:target ~ .image-slider #button-14{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+#slider-span15:target ~ .image-slider #img15,
+#slider-span15:target ~ .image-slider #button-15{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+#slider-span16:target ~ .image-slider #img16,
+#slider-span16:target ~ .image-slider #button-16{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+#slider-span17:target ~ .image-slider #img17,
+#slider-span17:target ~ .image-slider #button-17{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+
+#slider-span18:target ~ .image-slider #img18,
+#slider-span18:target ~ .image-slider #button-18{
+	width: 200px;
+	height: 300px;
+	background-color: transparent;
+	filter: saturate(100%);
+}
+#slider-span5:target ~ .image-slider{left: -25%;}
+#slider-span6:target ~ .image-slider{left: -10%;}
+#slider-span11:target ~ .image-slider{left: -25%;}
+#slider-span12:target ~ .image-slider{left: -10%;}
+#slider-span17:target ~ .image-slider{left: -25%;}
+#slider-span18:target ~ .image-slider{left: -10%;}
+
+.arrange {
+	top: 0px;
+	position:relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

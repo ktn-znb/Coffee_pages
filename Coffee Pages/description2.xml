@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book_styles.xsl"?>
+<!DOCTYPE books SYSTEM "book.dtd">
+<books>
+  <book>
+    <title>One Punch Man</title>
+    <author>Agatha Christie</author>
+    <release>USA</release>
+    <publisher>HarperCollins</publisher>
+    <price>20</price>
+    <year>1936</year>
+  </book>
+  <book>
+    <title>Naruto</title>
+    <author>Lucy Foley</author>
+    <release>USA</release>
+    <publisher>Penguin</publisher>
+    <price>25</price>
+    <year>2010</year>
+  </book>
+  <book>
+    <title>Mob Pshyco 100</title>
+    <author>D.S Butler</author>
+    <release>USA</release>
+    <publisher>Simon</publisher>
+    <price>30</price>
+    <year>2015</year>
+  </book>
+  <book>
+    <title>Dr. Stone</title>
+    <author>Osamu Dazai</author>
+    <release>Japan</release>
+    <publisher>Isekai</publisher>
+    <price>40</price>
+    <year>1950</year>
+  </book>
+  <book>
+    <title>JJBA</title>
+    <author>A.G Riddle</author>
+    <release>USA</release>
+    <publisher>Hopper</publisher>
+    <price>15</price>
+    <year>2019</year>
+  </book>
+  <book>
+    <title>Monster</title>
+    <author>Enrico Fermi</author>
+    <release>Italy</release>
+    <publisher>Riverheads</publisher>
+    <price>24</price>
+    <year>2016</year>
+  </book>
+  <book>
+    <title>American Cheese </title>
+    <author>Hamish Miller</author>
+    <release>USA</release>
+    <publisher>BBc</publisher>
+    <price>23</price>
+    <year>2007</year>
+  </book>
+  <book>
+    <title>Red White Royal Blue</title>
+    <author>Scott Blade</author>
+    <release>USA</release>
+    <publisher>Riverheads</publisher>
+    <price>30</price>
+    <year>1985</year>
+  </book>
+  <book>
+    <title>Ayoade on Top</title>
+    <author>Gregg Hurwittz</author>
+    <release>Germany</release>
+    <publisher>Penguin</publisher>
+    <price>20</price>
+    <year>2015</year>
+  </book>
+  <book>
+    <title>So we meet again</title>
+    <author>T.R Hendricks</author>
+    <release>USA</release>
+    <publisher>Hamish</publisher>
+    <price>15</price>
+    <year>1995</year>
+  </book>
+  <book>
+    <title>Eat Your HeartOut</title>
+    <author>Paolini</author>
+    <release>Spain</release>
+    <publisher>Columbia</publisher>
+    <price>25</price>
+    <year>2005</year>
+  </book>
+  <book>
+    <title>The Unhappy Medium</title>
+    <author>J.R.R TOlkein</author>
+    <release>UK</release>
+    <publisher>Self-Published</publisher>
+    <price>33</price>
+    <year>1980</year>
+  </book>
+  <book>
+    <title>Love Wager</title>
+    <author>Mary Shelly</author>
+    <release>USA</release>
+    <publisher>Lackington</publisher>
+    <price>40</price>
+    <year>1818</year>
+  </book>
+  <book>
+    <title>Off the Map</title>
+    <author>Stephen King</author>
+    <release>USA</release>
+    <publisher>Paolini</publisher>
+    <price>40</price>
+    <year>1985</year>
+  </book>
+  <book>
+    <title>Chaos and Flame</title>
+    <author>Richard Bachman </author>
+    <release>USA</release>
+    <publisher>Riverheads</publisher>
+    <price>20</price>
+    <year>1980</year>
+  </book>
+  <book>
+    <title>Flowerheart</title>
+    <author>R.L.Stine</author>
+    <release>USA</release>
+    <publisher>Scholastic</publisher>
+    <price>25</price>
+    <year>2014</year>
+  </book>
+  <book>
+    <title>Jane and edward</title>
+    <author>Shirley Jackson</author>
+    <release>USA</release>
+    <publisher>Hurwittz</publisher>
+    <price>40</price>
+    <year>1970</year>
+  </book>
+  <book>
+    <title>The next new syrian girl </title>
+    <author>Christopher Edge</author>
+    <release>UK</release>
+    <publisher>Nosy Crow</publisher>
+    <price>20</price>
+    <year>2020</year>
+  </book>
+</books>
+
+

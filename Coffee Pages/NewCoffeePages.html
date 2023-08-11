@@ -1,0 +1,149 @@
+<html>
+<head>
+	<title>Main Page</title>
+	<link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="banner">
+		<div class="navbar">
+		  <img src="logo.png" class="logo">
+		  <ul>
+			<li class="active"><a href="NewCoffeePages.html"><i class="fas fa-home"></i> Home</a>
+			  <div class="sub-menu-1">
+				<ul>
+				  <li><a href="NewCoffeePages.html#timings">Timings</a></li>
+				  <li><a href="NewCoffeePages.html#socials">Socials</a></li>
+				</ul>
+			  </div>
+			</li>
+			<li class="active"><a href="#"><i class="fas fa-book"></i> Genres</a>
+			<div class="sub-menu-1">
+				<ul>
+				  <li><a href="page2.html#thriller">Thriller</a></li>
+				  <li><a href="page2.html#action">Action</a></li>
+				  <li><a href="page2.html#horror">Horror</a></li>
+				  <li><a href="page3.html#manga">Manga</a></li>
+				  <li><a href="page3.html#comedy">Comedy</a></li>
+				  <li><a href="page3.html#romance">Romance</a></li>
+				  <li><a href="page4.html#selfhelp">Self-help</a></li>
+				  <li><a href="page4.html#biography">Biography</a></li>
+				  <li><a href="page4.html#history">History</a></li>
+				  
+				</ul>
+			  </div>
+			</li>
+			<li><a href="events.html"><i class="fas fa-calendar"></i>Events</a></li>
+			<li><a href="page5.html"><i class="fas fa-upload"></i> Publish</a></li>
+			<li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>        
+		  </ul>
+		</div>
+
+	
+	 <div class="content">
+		<h1>Welcome!<h1>
+			<div class="slider">
+				<div class="images">  
+					<input type="radio" name="slide" id="img1" checked>
+					<input type="radio" name="slide" id="img2"> 
+					<input type="radio" name="slide" id="img3">					
+					<img src="first.jpg" class="m1" alt="img1">
+					<img src="cafe.jpg" class="m2" alt="img2">
+					<img src="study.jpg" class="m3" alt="img3">
+				</div>
+				<div class="dots">
+					<label for="img1"></label>
+					<label for="img2"></label>
+					<label for="img3"></label>
+				</div>
+			</div>
+		<h2 id="timings">Timings</h2>
+		<table>
+			<tr id="header">
+				<th>Days</th>
+				<th>Timings</th>
+			</tr>
+			
+			<tr>
+				<td>Monday - Thursday</td>
+				<td>8:00 AM to 10:00 PM</td>
+			</tr>
+			
+			<tr>
+				<td>Friday - Saturday</td>
+				<td>2:00 PM to 11:00 PM</td>
+			</tr>
+			
+			<tr>
+				<td>Sunday</td>
+				<td>8:00 AM to 10:00 PM</td>
+			</tr>
+		</table>
+		<footer>
+			<p id="socials">Feel free to reach out to us on our socials</p>
+		<div class="container">
+			<ul>
+				<li><a href="https://www.instagram.com/coffeepagesofficial/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="mailto:coffeepages.ae@gmail.com"><i class="far fa-envelope"></i></a></li>
+				<li><a href="https://www.google.com/maps/"><i class="fas fa-map-marker-alt"></i></a></li>			
+			</ul>
+		</div>
+		</footer>
+	 </div>
+	</div>
+<style>
+  footer {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+	margin-top: 20px;
+  }
+  
+  .container {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  footer p {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  font-weight: 10;
+}
+  .container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .container ul li a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .container ul li a:hover {
+    color: #8CBA80;
+  }
+</style>
+</body>
+</html>

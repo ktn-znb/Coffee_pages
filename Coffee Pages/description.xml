@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book_styles.xsl"?>
+<!DOCTYPE books SYSTEM "book.dtd">
+<books>
+  <book>
+    <title>And Then There Were None</title>
+    <author>Agatha Christie</author>
+    <release>USA</release>
+    <publisher>HarperCollins</publisher>
+    <price>20</price>
+    <year>1936</year>
+  </book>
+  <book>
+    <title>The Guest List</title>
+    <author>Lucy Foley</author>
+    <release>USA</release>
+    <publisher>Penguin</publisher>
+    <price>25</price>
+    <year>2010</year>
+  </book>
+  <book>
+    <title>Where Secrets Lie</title>
+    <author>D.S Butler</author>
+    <release>USA</release>
+    <publisher>Simon</publisher>
+    <price>30</price>
+    <year>2015</year>
+  </book>
+  <book>
+    <title>No Longer Human</title>
+    <author>Osamu Dazai</author>
+    <release>Japan</release>
+    <publisher>Isekai</publisher>
+    <price>40</price>
+    <year>1950</year>
+  </book>
+  <book>
+    <title>Winter World</title>
+    <author>A.G Riddle</author>
+    <release>USA</release>
+    <publisher>Hopper</publisher>
+    <price>15</price>
+    <year>2019</year>
+  </book>
+  <book>
+    <title>Breathe</title>
+    <author>Enrico Fermi</author>
+    <release>Italy</release>
+    <publisher>Riverheads</publisher>
+    <price>24</price>
+    <year>2016</year>
+  </book>
+  <book>
+    <title>Serpent and the sun </title>
+    <author>Hamish Miller</author>
+    <release>USA</release>
+    <publisher>BBc</publisher>
+    <price>23</price>
+    <year>2007</year>
+  </book>
+  <book>
+    <title>Nothing Left</title>
+    <author>Scott Blade</author>
+    <release>USA</release>
+    <publisher>Riverheads</publisher>
+    <price>30</price>
+    <year>1985</year>
+  </book>
+  <book>
+    <title>The last Orphan</title>
+    <author>Gregg Hurwittz</author>
+    <release>Germany</release>
+    <publisher>Penguin</publisher>
+    <price>20</price>
+    <year>2015</year>
+  </book>
+  <book>
+    <title>The instructor</title>
+    <author>T.R Hendricks</author>
+    <release>USA</release>
+    <publisher>Hamish</publisher>
+    <price>15</price>
+    <year>1995</year>
+  </book>
+  <book>
+    <title>Sea of Stars</title>
+    <author>Paolini</author>
+    <release>Spain</release>
+    <publisher>Columbia</publisher>
+    <price>25</price>
+    <year>2005</year>
+  </book>
+  <book>
+    <title>The Hobbit</title>
+    <author>J.R.R TOlkein</author>
+    <release>UK</release>
+    <publisher>Self-Published</publisher>
+    <price>33</price>
+    <year>1980</year>
+  </book>
+  <book>
+    <title>Frankenstein</title>
+    <author>Mary Shelly</author>
+    <release>USA</release>
+    <publisher>Lackington</publisher>
+    <price>40</price>
+    <year>1818</year>
+  </book>
+  <book>
+    <title>IT</title>
+    <author>Stephen King</author>
+    <release>USA</release>
+    <publisher>Paolini</publisher>
+    <price>40</price>
+    <year>1985</year>
+  </book>
+  <book>
+    <title>Rage</title>
+    <author>Richard Bachman </author>
+    <release>USA</release>
+    <publisher>Riverheads</publisher>
+    <price>20</price>
+    <year>1980</year>
+  </book>
+  <book>
+    <title>Goosebumps</title>
+    <author>R.L.Stine</author>
+    <release>USA</release>
+    <publisher>Scholastic</publisher>
+    <price>25</price>
+    <year>2014</year>
+  </book>
+  <book>
+    <title>Haunting of the hill house</title>
+    <author>Shirley Jackson</author>
+    <release>USA</release>
+    <publisher>Hurwittz</publisher>
+    <price>40</price>
+    <year>1970</year>
+  </book>
+  <book>
+    <title>Escape Room</title>
+    <author>Christopher Edge</author>
+    <release>UK</release>
+    <publisher>Nosy Crow</publisher>
+    <price>20</price>
+    <year>2020</year>
+  </book>
+</books>
+
+

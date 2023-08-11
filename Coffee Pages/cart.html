@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Specifies the document type as HTML 5 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CART</title><!-- Sets the title of the page to "CART" -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Imports the Font Awesome stylesheet -->
+	<link href="cart_style.css" rel="stylesheet">
+	<!-- Imports a custom stylesheet named "cart_style.css" -->
+	 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+	<div class="navbar">
+		  <img src="logo.png" class="logo">
+		  <ul>
+			<li class="active"><a href="NewCoffeePages.html"><i class="fas fa-home"></i> Home</a>
+			  <div class="sub-menu-1">
+				<ul>
+				  <li><a href="NewCoffeePages.html#timings">Timings</a></li>
+				  <li><a href="NewCoffeePages.html#socials">Socials</a></li>
+				</ul>
+			  </div>
+			</li>
+			<li class="active"><a href="#"><i class="fas fa-book"></i> Genres</a>
+			<div class="sub-menu-1">
+				<ul>
+				  <li><a href="page2.html#thriller">Thriller</a></li>
+				  <li><a href="page2.html#action">Action</a></li>
+				  <li><a href="page2.html#horror">Horror</a></li>
+				  <li><a href="page3.html#manga">Manga</a></li>
+				  <li><a href="page3.html#comedy">Comedy</a></li>
+				  <li><a href="page3.html#romance">Romance</a></li>
+				  <li><a href="page4.html#selfhelp">Self-help</a></li>
+				  <li><a href="page4.html#biography">Biography</a></li>
+				  <li><a href="page4.html#history">History</a></li>
+				  
+				</ul>
+			  </div>
+			</li>
+			<li><a href="page5.html"><i class="fas fa-upload"></i> Publish</a></li>
+			<li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+			<li><a href="events.html"><i class="fas fa-calendar"></i>Events</a></li>
+		  </ul>
+		</div>
+    <div class="wrapper"><!-- A container that wraps the entire content of the page -->
+		<h1>Shopping Cart</h1><!-- A header with the title "Shopping Cart" -->
+		<div class="project"> <!-- A container that wraps the shopping cart items and the order summary -->
+			<div class="shop">
+				<div class="box">
+					<img src="1.jpg">
+					<div class="content"><!-- A container that wraps the details of the item -->
+						<!-- Details of each item -->
+						<h3>And Then There Were None</h3>
+						<h4>Price: AED 40</h4>
+						<!-- The quantity of the item, with an input field for editing the quantity -->
+						<p class="unit">Quantity: <input name="" value="2"></p>
+						<!-- A button for removing the item from the cart -->
+						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+					</div>
+				</div>
+				<div class="box">
+					<img src="2.jpg">
+					<div class="content">
+						<h3>No Longer Human</h3>
+						<h4>Price: AED 40</h4>
+						<p class="unit">Quantity: <input name="" value="1"></p>
+						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+					</div>
+				</div>
+				<div class="box">
+					<img src="3.jpg">
+					<div class="content">
+						<h3>A Good Girl's Guide To Murder</h3>
+						<h4>Price: AED 30</h4>
+						<p class="unit">Quantity: <input name="" value="0"></p>
+						<p class="btn-area"><i aria-hidden="true" class="fa fa-trash"></i> <span class="btn2">Remove</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="right-bar">
+			<!-- Order summary details, including subtotal, tax, shipping, and total -->
+				<p><span>Subtotal</span> <span>AED 120</span></p>
+				<hr>
+				<p><span>Tax (5%)</span> <span>AED 6</span></p>
+				<hr>
+				<p><span>Shipping</span> <span>AED 15</span></p>
+				<hr>
+				<p><span>Total</span> <span>AED 141</span></p>
+				<!-- A button for checking out the items in the cart -->
+				<a href="#"><i class="fa fa-shopping-cart"></i>Checkout</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
